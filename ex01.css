@@ -1,0 +1,38 @@
+div {
+    background: #334455;
+    padding: 10px 0 20px 20px;
+    border-radius: 10px;
+}
+
+h2,
+p {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+span {
+    color: orange;
+}
+
+input {
+    width: 220px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    background: #ddd;
+}
+input:hover::placeholder {
+    color: orange;
+}
+
+button {
+    width: 220px;
+    background: yellow;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+button:hover {
+    background: orange;
+    color: aliceblue;
+}

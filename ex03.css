@@ -1,0 +1,90 @@
+section {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 50px;
+}
+.nav-btn {
+    padding: 10px 20px;
+    border-color: transparent;
+}
+
+button:focus {
+    color: white;
+    background: #29378e;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+i,
+button {
+    cursor: pointer;
+}
+.list {
+    margin-top: 50px;
+}
+/* img */
+.item-img img {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    background: #000;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+.item-img:last-child {
+    display: none;
+}
+.item:hover .item-img:first-child {
+    display: none;
+}
+.item:hover .item-img:last-child {
+    display: inline;
+}
+/* icon */
+.active {
+    color: orange;
+}
+.item-action {
+    position: relative;
+}
+.action {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.item:hover .action {
+    display: block;
+}
+
+.action-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 9px;
+}
+
+.action-row i {
+    padding: 21px;
+    color: white;
+    background: #29378e;
+}
+.action-btn {
+    margin-top: 10px;
+    width: 196px;
+    padding: 21px;
+    color: white;
+    background: #29378e;
+}
+.stars {
+    margin-top: 50px;
+}
+
+span {
+    font-weight: 600;
+}
